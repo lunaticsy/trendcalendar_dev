@@ -1,11 +1,11 @@
 {
-    "name": "trend calendar",
-    "short_name": "trend calendar",
+    "name": "대유행 알리미",
+    "short_name": "대유행 알리미",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "대유행 알리미",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
