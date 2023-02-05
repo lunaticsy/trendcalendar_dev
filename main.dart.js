@@ -85010,7 +85010,7 @@ l.push(new A.k4("","0000",B.pc,B.GV))
 l.push(new A.k4("\ubd81\ubc18\uad6c","0001",B.Cg,o))
 s=j.A(0,B.pD)
 r=t.f
-m.push(A.vs(B.Cl,j.A(0,B.fl),o,o,!0,o,o,o,o,n,A.a(["0001"],r),s,o,"\uc8fc\ub958 (\uc720\ub7fd, \ub3d9\uc544\uc2dc\uc544)"))
+m.push(A.vs(B.Cl,j.A(0,B.fl),o,o,!0,o,o,o,o,"FREQ=DAILY;INTERVAL=12;COUNT=100",A.a(["0001"],r),s,o,"\uc8fc\ub958 (\uc720\ub7fd, \ub3d9\uc544\uc2dc\uc544)"))
 s=j.A(0,B.L9)
 m.push(A.vs(B.Cf,j.A(0,B.jo),o,o,!0,o,o,o,o,n,A.a(["0001"],r),s,o,"\ubcf4\uc11d, \uc870\ubbf8\ub8cc (\uc720\ub7fd, \ub3d9\uc544\uc2dc\uc544)"))
 s=j.A(0,B.Lb)
