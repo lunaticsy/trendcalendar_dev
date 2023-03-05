@@ -1,6 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-https://ijung.github.io/trendcalendar 로 도메인 이전 되었습니다.
-</br>
-</br>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-<a href="https://ijung.github.io/trendcalendar">https://ijung.github.io/trendcalendar</a>
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/trendcalendar/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="대유행 알리미">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>대유행 알리미</title>
+  <link rel="manifest" href="manifest.json">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5154988531467064"
+          crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQ4ZF7XZQ7"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NQ4ZF7XZQ7');
+  </script>
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '2921836669';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+
+  <script type="text/javascript">
+      var xmlHttp = new XMLHttpRequest();
+      var url = "sponsors.json";
+
+      xmlHttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          getSponsors(xmlHttp.responseText);
+        }
+      };
+      xmlHttp.open("GET", url, true);
+      xmlHttp.send();
+
+      function getSponsors(resp) {
+        var arr = JSON.parse(resp);
+        if(arr.length < 1) return;
+        var out = "후원해 주신 분들</br>";
+
+        for (var i = 0; i < arr.length; i++) {
+          out += "</br>" + arr[i] + "</br>"
+        }
+        document.getElementById('sponsors').innerHTML = out;
+      }
+    </script>
+</head>
+<body>
+  <center><font color="black">
+    Now Loading..
+  <br>
+  <br>
+  <br>
+  <br>
+  <p id="sponsors"></p>
+  </font></center>
+
+
+<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+</body>
+</html>
