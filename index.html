@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="대유행 알리미">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -44,14 +44,15 @@
   </script>
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2921836669';
+    var serviceWorkerVersion = '2251540003';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 
   <script type="text/javascript">
       var xmlHttp = new XMLHttpRequest();
-      var url = "sponsors.json";
+      var rndNum = Math.random();
+      var url = "sponsors.json?" + rndNum;
 
       xmlHttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -64,10 +65,10 @@
       function getSponsors(resp) {
         var arr = JSON.parse(resp);
         if(arr.length < 1) return;
-        var out = "후원해 주신 분들</br>";
-
-        for (var i = 0; i < arr.length; i++) {
-          out += "</br>" + arr[i] + "</br>"
+        var out = "<h3>후원해 주신 분들</h3></br>";
+        out += "</br><h2>" + arr[0] + "</h2></br>"
+        for (var i = 1; i < arr.length; i++) {
+          out += "</br><h4>" + arr[i] + "</h4>"
         }
         document.getElementById('sponsors').innerHTML = out;
       }
