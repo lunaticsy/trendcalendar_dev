@@ -1,7 +1,7 @@
 {
   "대유행 알리미": "Trend Schedular",
-  "시간표": "Overflow",
-  "리스트": "Events",
+  "시간표": "Schedule",
+  "리스트": "List",
   "정보": "Infos",
   "설정": "Setting",
   "알림": "Notiify",
@@ -65,20 +65,20 @@
   "아프리카남쪽": "S.Africa",
   "아프리카동쪽": "E.Africa",
 
-  "극동아시아도시": "Shuri Nagasaki Sakai Edo Ezo Deokwon Yeongil Dongnae Jeju Hanyang Okhotsk Korf",
-  "동아시아도시": "Macau Quanzhou Tainan Hobe Hangzhou Chongqing Yanyun Chang'an Peking",
-  "남아시아도시": "Aceh Pasay Palembang PangkalPinang JayaKarta Surabaya Banjarmasin Makassar Dilu Ambon Banda Ternate Davao Jolo Manila Brunei Kuching",
-  "동인도및인도차이나도시": "Kotte Pondicherry Masulipatnam Kolkata Pegu Malacca Lopburi PreyNokor Hanoi",
-  "오세아니아도시": "K'gari Hobart PortPirie Kakatuwah Pinjarra",
-  "동지중해도시": "Benghazi Alexandria Cairo PortSaid Jaffa Beirut Lefkosa Antalya Candia Athens Thessaloniki Constantinople Varna Odesa Kerch Taganrog Trabzon",
-  "아메리카동부도시": "RiodeJaneiro Bahia Pernambuco Cayenne Porlamar Caracas Willemstad Maracaibo Cartagena Portobelo Trujillo Mérida Varacruz Southside Havana PortRoyal SantiagodeCuba SantoDomingo SanJuan Nassau Cohasset Nutak Arviat",
-  "서지중해및대서양도시": "SantaIsland PontaDelgada Gijón Porto Lisboa Faro Seville Ceuta Casablanca Málaga Valencia Barcelona Palma Algiers Montpellier Marseille Genoa Pisa Calvi Sassari Cagliari Tunis Naples Suracuse Tripoli Ancona Venice Trieste Zadar Ragusa",
-  "아라비아및서인도도시": "Suez Jeddah Massawa Aden Hadiboh Dhofar Muscat Hormuz AlBidda Shiraz Basrah Bagdad Diu Goa Kozhikode Kochi",
-  "북해도시": "Bordeaux Nantes Dublin Bristol Plymouth Calais Dover London Edinburgh Antwerp DenHelder Amsterdam Groningen Bremen Hamburg Bergen Oslo Copenhagen Lübeck Gdańsk Visby Stockholm Riga Kokola SaintPetersburg",
-  "남미도시": "BuenosAires Ushuaia Valparaíso Copiapó Lima Tumbes Panama",
-  "아프리카서쪽도시": "Funchal LasPalmas Arguin Praia Bathurst Bissau SierraLeone Abidjan Elmina Benin Douala SãoTomé Timbuktu",
-  "아프리카남쪽도시": "Lunada Benguela Karibib CapeTown",
-  "아프리카동쪽도시": "Natal Sofala Quelimane Mozambique Toamasina Kilwa Zanzibar Manbasa Malindi Mogadishu",
+  "극동아시아도시": "Shuri, Nagasaki, Sakai, Edo, Ezo, Deokwon, Yeongil, Dongnae, Jeju, Hanyang, Okhotsk, Korf",
+  "동아시아도시": "Macau, Quanzhou, Tainan, Hobe, Hangzhou, Chongqing, Yanyun, Chang'an, Peking",
+  "남아시아도시": "Aceh, Pasay, Palembang, Pangkal Pinang, JayaKarta, Surabaya, Banjarmasin, Makassar, Dili, Ambon, Banda, Ternate, Davao, Jolo, Manila, Brunei, Kuching",
+  "동인도및인도차이나도시": "Kotte, Pondicherry, Masulipatnam, Kolkata, Pegu, Malacca, Lopburi, PreyNokor, Hanoi",
+  "오세아니아도시": "K'gari, Hobart, Port Pirie, Kakatuwah, Pinjarra",
+  "동지중해도시": "Benghazi, Alexandria, Cairo, PortSaid, Jaffa, Beirut, Lefkosa, Antalya, Candia, Athens, Thessaloniki, Constantinople, Varna, Odesa, Kerch, Taganrog, Trabzon",
+  "아메리카동부도시": "Rio de Janeiro, Bahia, Pernambuco, Cayenne, Porlamar, Caracas, Willemstad, Maracaibo, Cartagena, Portobelo, Trujillo, Mérida, Varacruz, Southside, Havana, Port Royal, Santiago de Cuba, Santo Domingo, San Juan, Nassau, Cohasset, Nutak, Arviat",
+  "서지중해및대서양도시": "Santa Island, Ponta Delgada, Gijón, Porto, Lisboa, Faro, Seville, Ceuta, Casablanca, Málaga, Valencia, Barcelona, Palma, Algiers, Montpellier, Marseille, Genoa, Pisa, Calvi, Sassari, Cagliari, Tunis, Naples, Suracuse, Tripoli, Ancona, Venice, Trieste, Zadar, Ragusa",
+  "아라비아및서인도도시": "Suez, Jeddah, Massawa, Aden, Hadiboh, Dhofar, Muscat, Hormuz, Al Bidda, Shiraz, Basrah, Bagdad, Diu, Goa, Kozhikode, Kochi",
+  "북해도시": "Bordeaux, Nantes, Dublin, Bristol, Plymouth, Calais, Dover, London, Edinburgh, Antwerp, Den Helder, Amsterdam, Groningen, Bremen, Hamburg, Bergen, Oslo, Copenhagen, Lübeck, Gdańsk, Visby, Stockholm, Riga, Kokola, Saint Petersburg",
+  "남미도시": "BuenosAires, Ushuaia, Valparaíso, Copiapó, Lima, Tumbes, Panama",
+  "아프리카서쪽도시": "Funchal, Las Palmas, Arguin, Praia, Bathurst, Bissau, Sierra Leone, Abidjan, Elmina, Benin, Douala, São Tomé, Timbuktu",
+  "아프리카남쪽도시": "Lunada, Benguela, Karibib, Cape Town",
+  "아프리카동쪽도시": "Natal, Sofala, Quelimane, Mozambique, Toamasina, Kilwa, Zanzibar, Manbasa, Malindi, Mogadishu",
 
   "극동아시아설명": "Far East Asia",
   "동아시아설명": "East Asia",
@@ -142,5 +142,6 @@
   "기간 종료일을 입력해주세요.": "please enter enddate",
   "기간 내에 유행이 없습니다.": "no trend within period",
 
-  "한국 시간 사용": "Use Korean timezone"
+  "한국 시간 사용": "Use Korean timezone",
+  "어플홍보문구": "안드로이드 어플을 받으시면 푸시도 사용가능!"
 }
