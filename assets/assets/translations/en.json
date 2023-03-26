@@ -1,5 +1,5 @@
 {
-  "대유행 알리미": "Trend Schedular",
+  "대유행 알리미": "Trend Timer",
   "시간표": "Schedule",
   "리스트": "List",
   "정보": "Infos",
@@ -64,6 +64,8 @@
   "아프리카서쪽": "W.Africa",
   "아프리카남쪽": "S.Africa",
   "아프리카동쪽": "E.Africa",
+  "북아메리카서부": "NW.America",
+  "북극해": "Arctic",
 
   "극동아시아도시": "Shuri, Nagasaki, Sakai, Edo, Ezo, Deokwon, Yeongil, Dongnae, Jeju, Hanyang, Okhotsk, Korf",
   "동아시아도시": "Macau, Quanzhou, Tainan, Hobe, Hangzhou, Chongqing, Yanyun, Chang'an, Peking",
@@ -79,6 +81,8 @@
   "아프리카서쪽도시": "Funchal, Las Palmas, Arguin, Praia, Bathurst, Bissau, Sierra Leone, Abidjan, Elmina, Benin, Douala, São Tomé, Timbuktu",
   "아프리카남쪽도시": "Lunada, Benguela, Karibib, Cape Town",
   "아프리카동쪽도시": "Natal, Sofala, Quelimane, Mozambique, Toamasina, Kilwa, Zanzibar, Manbasa, Malindi, Mogadishu",
+  "북아메리카서부도시": "Tacoma, Ohlon, Acapulco, Guatemala",
+  "북극해도시": "Reykjavik, Unalaska",
 
   "극동아시아설명": "Far East Asia",
   "동아시아설명": "East Asia",
@@ -94,6 +98,8 @@
   "아프리카서쪽설명": "West Africa",
   "아프리카남쪽설명": "South Africa",
   "아프리카동쪽설명": "East Africa",
+  "북아메리카서부설명": "North West America",
+  "북극해설명": "Arctic Ocean",
 
   "토벌": "Assault",
   "티치": "Teach",
@@ -143,5 +149,7 @@
   "기간 내에 유행이 없습니다.": "no trend within period",
 
   "한국 시간 사용": "Use Korean timezone",
-  "어플홍보문구": "안드로이드 어플을 받으시면 푸시도 사용가능!"
+  "어플을 사용하시면 푸시도 사용 가능!": "Notification available on Apps!",
+  "설정에서 지역&유행을 체크 후 저장해 주세요.": "Select interested Trade area & Trends in Setting and SAVE!",
+  "오늘 하루 보지 않기": "Don't show this today"
 }
